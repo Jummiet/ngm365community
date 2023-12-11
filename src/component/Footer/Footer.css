@@ -1,0 +1,131 @@
+
+.main-container {
+    background-color: #012332;
+    padding: 5rem;
+}
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #FFFFFF;
+}
+
+.footer-logo{
+    height: 40px;
+    width: 80px;
+}
+
+.footer-logo img{
+    height: 100%;
+    width: 100%;
+}
+
+.footer-container input{
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+.main-container hr{
+    width: 100%;
+    padding: 0 20px;
+    border: 1px solid #FFFFFF;
+}
+
+.footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+.social-media-name {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.social-media-name a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+
+/* Mobile Version */
+
+@media only screen and (max-width: 800px) {
+    .main-container {
+        background-color: #012332;
+        padding: 1rem;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 0rem;
+    }
+
+    .footer-logo{
+        height: 30px;
+        width: 60px;
+        margin: 10px 0;
+    }
+
+    .footer-logo img{
+        height: 100%;
+        width: 100%;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 20px;
+    
+    }
+
+ h2 {
+        font-size: 1.2rem;
+    }
+ p {
+        font-size: 0.8rem;
+    }
+
+    .quick-link {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .social-media {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 20px;
+    
+    }
+
+    input {
+        width: 100%;
+        height: 30px;
+        border-radius: 8px;
+        border: none;
+        padding: 0 10px;
+        margin-bottom: 10px;
+    }
+}

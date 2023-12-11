@@ -1,0 +1,124 @@
+* {
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+button {
+    background-color: rgba(4, 166, 239, 1);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+/* Mobile Version */
+
+@media only screen and (max-width: 800px) {
+    .header-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 5rem;
+    }
+    .header-content {
+      width: 100%;
+      margin-right: 20px;
+      color: #ffffff;
+    }
+    .ImageIcon{
+      display: none;
+    }
+
+    .Title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .SubTitle {
+      font-size: 1rem;
+      /* font-weight: bold; */
+      margin-bottom: 10px;
+    }
+
+    .btn {
+      background-color: rgba(4, 166, 239, 1);
+      width: 100%;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+  }
+  /* End of Mobile Version */
+
+  /* Tablet Version */
+  @media only screen and (min-width: 800px) and (max-width: 1024px) {
+    .header-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      padding: 5rem;
+    }
+    .header-content {
+      width: 50%;
+      margin-right: 20px;
+      color: #ffffff;
+    }
+    .ImageIcon{
+      display: none;
+    }
+
+    .Title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .SubTitle {
+      font-size: 1rem;
+      /* font-weight: bold; */
+      margin-bottom: 10px;
+    }
+
+    .btn {
+      background-color: rgba(4, 166, 239, 1);
+      width: 100%;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 8px;
+      cursor: pointer;
+        margin-top: 10px;
+    }
+    }
+    /* End of Tablet Version */
+
