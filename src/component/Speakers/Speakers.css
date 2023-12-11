@@ -1,0 +1,70 @@
+.speaker-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #fff;
+    padding: 5rem;
+}
+
+.image-container {
+    flex: 1;
+    margin-right: 8rem;
+}
+
+.speaker-image {
+    max-width: 100%;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.speaker{
+    width: 40%;
+    margin-right: 20px;
+}
+
+.speaker h4 {
+    margin-bottom: 10px;
+}
+
+.speaker p {
+    margin-bottom: 20px;
+}
+
+
+/* Mobile version */
+
+@media only screen and (max-width: 800px) {
+    .speaker-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0px;
+        background: #F5F7FA;
+    }
+
+    .speaker {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 2rem;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .image-container {
+        display: block;
+        flex: 1;
+        margin-right: 0px;
+    }
+
+    .speaker-image {
+        display: block;
+        max-width: 100%;
+        align-items: center;
+        border-radius: 8px;
+    }
+}
+

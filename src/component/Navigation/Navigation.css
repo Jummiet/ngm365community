@@ -1,0 +1,120 @@
+.Nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    height: 13vh;
+    background-color: #012332;
+    opacity: 80%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.Nav-menu-desktop {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Nav-logo{
+    height: 40px;
+    width: 80px;
+}
+
+.Nav-logo img{
+    height: 100%;
+    width: 100%;
+}
+
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.Nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Nav-menu a{
+    list-style: none;
+    margin-left: 3rem;
+}
+
+.Nav-menu a{
+    text-decoration: none;
+    font-size: 01rem;
+    font-weight: 500;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.Nav-menu a:hover{
+    text-decoration: underline;
+}
+
+
+/* Mobile version */
+
+@media only screen and (max-width: 800px) {
+    .Nav-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2rem;
+        height: 13vh;
+        background-color: #012332;
+        opacity: 80%;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+    
+    .Nav-logo{
+        height: 40px;
+        width: 80px;
+    }
+    
+    .Nav-logo img{
+        height: 100%;
+        width: 100%;
+    }
+
+    .Nav-menu {
+        display: none;
+    }
+    
+
+    .Nav-menu.is-open-Nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #012332;
+        height: 50vh;
+        width: 50%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+
+    .Nav-menu.is-open-Nav a {
+        margin: 1rem;
+    }
+
+    .Nav-menu.is-open-Nav a:hover {
+        text-decoration: underline;
+    }
+
+    .hamburger-menu {
+        display: block;
+        cursor: pointer;
+    }
+}
+

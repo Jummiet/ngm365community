@@ -1,0 +1,134 @@
+
+#events {
+    background-color: #F5F7FA;
+    padding: 5rem;
+}
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    background: #F5F7FA;
+
+}
+
+.event-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+.swtich{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background: #E8E8E8;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.active-switch {
+    background: #04A6EF4D;
+    color: #0687C1;
+    padding: 10px;
+    border-radius: 8px;
+    margin-right: 10px;
+
+}
+
+.inactive-switch {
+    background: #E8E8E8;
+    color: #BDBDBD;
+    padding: 10px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.view-All-Event {
+    color: #04A6EF;
+    text-decoration-line: underline;
+
+
+}
+
+a {
+    text-decoration: underline;
+    color: #04A6EF;
+}
+
+.card {
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    word-wrap: break-word;
+}
+
+.card-image {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px 8px 0 0;
+}
+
+.text-container {
+    padding: 20px;
+}
+
+.text-container h4 {
+    margin-bottom: 10px;
+}
+
+.text-container p {
+    margin-bottom: 20px;
+}
+
+.see-more {
+    color: #4EAC24;
+}
+
+
+/* Mobile version */
+
+@media only screen and (max-width: 800px) {
+
+    #events {
+        background-color: #F5F7FA;
+        padding: 1rem;
+    }
+
+    .event-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0px;
+        justify-content: space-evenly;
+        background: #F5F7FA;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 100%;
+        align-items: center;
+    }
+
+    .card-image {
+        width: 100%;
+        height: 300px;
+        border-radius: 8px 8px 0 0;
+    }
+
+}
